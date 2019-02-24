@@ -1,3 +1,4 @@
+#!/bin/bash
 # Nome: Zhenlei Ji
 # Email: zhenlei.ji@gmail.com
 #
