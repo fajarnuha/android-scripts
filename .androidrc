@@ -2,9 +2,7 @@
 
 # Exporting necessary path for Android Dev Environment, eg adb, and this repo
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home
-export ANDROID_HOME=/Users/nakama/Library/Android/sdk
-export ANDROID_SDK=/Users/nakama/Library/Android/sdk
-export ANDROID_NDK=$ANDROID_HOME/ndk-bundle
+export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$HOME/AndroidStudioProjects/android-scripts
 
 # SCREENSHOT {LOCATION}

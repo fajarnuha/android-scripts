@@ -8,5 +8,5 @@
 # HOW TO USE
 # ~$ ./screenshot
 adb shell screencap -p /sdcard/screen.png
-adb pull /sdcard/screen.png ~/Desktop/screen_`date +%Y_%m_%d_%H_%M_%S`.png
+adb pull /sdcard/screen.png screen_`date +%Y_%m_%d_%H_%M_%S`.png
 adb shell rm /sdcard/screen.png
